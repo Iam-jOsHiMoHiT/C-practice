@@ -11,7 +11,7 @@ int main()
 
     for (int i = a; i <= a + (n - 1) * d; i += d)
     {
-        printf("%d\n", i);
+        printf("%d ", i);
     }
     return 0;
 }
